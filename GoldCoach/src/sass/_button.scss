@@ -1,0 +1,27 @@
+.button {
+  display: block;
+  margin: 0 auto;
+  font-family: 'PT Sans Bold', sans-serif;
+  font-size: 30px;
+  color: $color-text_light;
+  background-color: $color-main;
+  border: none;
+  border-bottom: 4px solid darken($color-main, 10%);
+  padding: 10px 35px;
+  margin-bottom: 40px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: darken($color-main, 8%);
+    border-bottom: 4px solid darken($color-main, 18%);
+    cursor: pointer;
+  }
+
+  &:active {
+    border-top: 4px solid darken($color-main, 18%);
+    border-bottom: none;
+  }
+}

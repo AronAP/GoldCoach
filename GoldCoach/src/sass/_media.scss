@@ -1,0 +1,297 @@
+@media screen and (max-width: 820px) {
+
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .line-first {
+    width: 100%;
+  }
+
+  .webinar-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &_right {
+      order: 2;
+      width: 100%;
+      margin-right: 100px;
+      padding: 32px 38px 40px;
+    }
+
+    &_left {
+      order: 1;
+      width: 100%;
+      padding: 32px 38px 40px;
+    }
+  }
+
+  .webinar-explain {
+
+    &_smalltext {
+      font-size: 28px;
+      width: 100%;
+
+      span {
+        font-size: 35px;
+      }
+    }
+
+    &_bigtext {
+      font-size: 30px;
+    }
+  }
+
+  .secret {
+
+    &-title {
+
+      h3 {
+        font-size: 24px;
+      }
+    }
+
+    &-text {
+
+      p {
+
+        span {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  .footer {
+
+    &-text {
+      font-size: 24px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    &-subtext {
+      font-size: 24px;
+      margin-bottom: 60px;
+    }
+
+    &-button {
+      font-size: 27px;
+    }
+
+    .up {
+      transform: scale(1.5);
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  .container {
+    width: 563px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 563px) {
+
+  .container {
+    width: 463px;
+    margin: 0 auto;
+  }
+
+  .webinar-main_right .speaker-descrip {
+    margin-left: 0;
+  }
+
+  .popup {
+    width: 400px;
+  }
+
+  .popup .form-control {
+    width: 350px
+  }
+
+  .flip-clock-divider.seconds {
+    display: none;
+  }
+  .flip-clock-divider.seconds ~ * {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 463px) {
+
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .popup {
+    width: 300px;
+  }
+
+  .popup h4 {
+    font-size: 26px;
+  }
+
+  .popup .form-control {
+    width: 250px;
+    font-size: 18px;
+  }
+
+  .popup .form-reset {
+    top: 1px;
+  }
+
+  .popup .form .phone + .form-reset {
+    top: 62px;
+  }
+
+  .button {
+    font-size: 26px;
+  }
+
+  .webinar-main_right .speaker-descrip {
+    margin-left: 0;
+  }
+
+  .webinar-text_title {
+    font-size: 30px;
+  }
+
+  .webinar-text_subtitle {
+    font-size: 26px;
+  }
+
+  .webinar-main_left .clock-time {
+    transform: translateX(-10px)
+  }
+
+  .webinar-main_left .learn-title {
+    margin-bottom: 30px;
+  }
+
+  .webinar-main_right .data-title_day {
+    width: 60%;
+  }
+
+  .webinar-main_right .data-img {
+    width: 40%;
+  }
+
+  .webinar-main_right .data-title {
+    width: 60%;
+  }
+
+  .secret-text p {
+    font-size: 20px;
+  }
+
+  .secret-text p span {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .container {
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  .webinar-text_title {
+    font-size: 26px;
+  }
+
+  .webinar-text_subtitle {
+    font-size: 22px;
+  }
+
+  .button {
+    font-size: 21px;
+  }
+
+  .webinar-main_left, .webinar-main_right{
+    padding: 20px 20px;
+  }
+
+  .webinar-main_left .clock-time {
+    width: 110%;
+    transform: translateX(-25px)
+  }
+
+  .flip-clock-divider.minutes {
+    display: none;
+  }
+  
+  .flip-clock-divider.minutes ~ * {
+    display: none;
+  }
+  
+  .webinar-main_left .learn-title {
+    font-size: 21px;
+  }
+  
+  .webinar-main_left .learn-items{
+    font-size: 18px;
+  }
+  
+  .webinar-main_left .learn-items ul {
+    padding: 10px;
+  }
+  .webinar-main_left .learn-items ul li {
+    list-style-position: inside;
+  }
+  
+  .webinar-main_right .data-img {
+    width: 50%;
+  }
+  
+  .webinar-main_right .data-title {
+    width: 50%;
+  }
+  
+  .webinar-main_right .data-title_day {
+    width: 100%;
+  }
+  
+  .webinar-explain_smalltext {
+    font-size: 22px;
+  }
+  
+  .webinar-explain_alerttext {
+    font-size: 28px;
+  }
+  
+  .webinar-explain_bigtext {
+    font-size: 24px;
+  }
+  
+  .secret-title h3 {
+    font-size: 20px;
+  }
+  
+  .secret-text p {
+    font-size: 17px;
+  }
+  
+  .secret-text p span {
+    font-size: 20px;
+  }
+  
+  .footer-text {
+    font-size: 20px;
+  }
+  
+  .footer-subtext {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+}
