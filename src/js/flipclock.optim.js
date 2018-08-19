@@ -1,4 +1,4 @@
-$(function () {
+﻿$(function () {
 
   var clock;
 
@@ -13,7 +13,7 @@ $(function () {
     }
   });
 
-  var dt        = 'August 17 2018 20:00:0',
+  var dt        = 'October 17 2018 20:00:0',
       first       = new Date(dt),
       last        = Date.now(),
       remaining   = first - last;
