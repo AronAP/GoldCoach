@@ -1,24 +1,20 @@
 ﻿$(function () {
 
-  var clock;
-
-  clock = $('.clock-time').FlipClock({
+  var clock = new FlipClock($('.clock-time'), {
     clockFace: 'DailyCounter',
     autoStart: false,
+    countdown: true,
     language: 'russian',
     callbacks: {
       stop: function () {
-        $('.clock-title').html('Время вышло!');
+        $('.clock-time').html('Время вышло!');
       }
     }
   });
 
-  var dt        = 'October 17 2018 20:00:0',
-      first       = new Date(dt),
-      last        = Date.now(),
-      remaining   = first - last;
-
-  remaining /= 1000;
+  var dt = new Date('October 17 2018 23:59:59'),
+      first = new Date(dt),
+      remaining = first;
 
   clock.setTime(remaining);
   clock.setCountdown(true);

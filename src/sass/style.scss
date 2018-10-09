@@ -178,13 +178,20 @@ body {
           font-size: 21px;
           text-align: center;
           text-transform: uppercase;
+
         }
 
         &-time {
           display: flex;
           justify-content: center;
           width: 100%;
-          margin-bottom: 40px;
+          margin-bottom: 25px;
+          margin-left: 1px;
+          font-family: 'PT Sans Bold', sans-serif;
+          font-size: 21px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #eb4141;
         }
       }
 
