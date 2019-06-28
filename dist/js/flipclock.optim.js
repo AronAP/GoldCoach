@@ -12,7 +12,7 @@
     }
   });
 
-  var dt = new Date('May 17 2019 20:00:00'),
+  var dt = new Date('August 16 2019 20:00:00'),
       first = new Date(dt),
       remaining = first;
 
