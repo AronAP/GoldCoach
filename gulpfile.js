@@ -41,10 +41,10 @@ gulp.task("reload-css", function() {
 gulp.task('ftp', function () {
   return gulp.src('dist/**')
     .pipe(ftp({
-      host: 's2.hostiman.ru',
-      user: 'artempry',
-      pass: 'ib786Yb4Cw',
-      remotePath: '/www/artemprydybailo.h1n.ru/GoldCoach'
+      host: '',
+      user: '',
+      pass: '',
+      remotePath: ''
     }))
     .pipe(gutil.noop());
 });

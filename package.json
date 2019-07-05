@@ -18,16 +18,8 @@
     "gulp-ftp": "^1.1.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
-<<<<<<< HEAD
     "gulp-util": "^3.0.8",
     "minimatch": "^3.0.4"
   },
   "dependencies": {}
-=======
-    "gulp-util": "^3.0.8"
-  },
-  "dependencies": {
-    "minimatch": "^3.0.4"
-  }
->>>>>>> 6dd597c80c20200bc7c309300c41de96c8e60896
 }
